@@ -1,0 +1,187 @@
+html {
+    margin:0;
+    padding: 0;
+background-color: rgb(32,32,32);
+}
+h1 {
+    font-size: 2em;
+}
+body {
+    background-color: rgb(32,32,32);
+}
+#maincontentparent{
+    display: flex;
+    justify-content: center;
+}
+#maincontentchild{
+    width: 60%;
+}
+.intro{
+    border-style: solid;
+    border-color: darkred;
+    border-radius: 24px;
+    background-color: lightgray;
+    padding-top: 5px;
+    margin-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.quoteparent{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    padding: 4px;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: aliceblue;
+    max-width: 900px;
+    min-width: 600px;
+}
+.quotetext{
+    font-size: 2em;
+    font-style: italic;
+    color: darkred;
+}
+.citaat{
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 5px;
+}
+.citated{
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+#headertop{
+    justify-content: center;
+    display: flex;
+}
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(125,0,0);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px;
+}
+.mevlin-button {
+    font-style: italic;
+    display: flex;
+    background-color: darkred;
+    border-radius: 5px;
+    width: 280px;
+    height: 130px;
+    font-size: 50px;
+    font-weight: bold !important;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.mevlin-button:hover{
+    background-color: rgb(150,0,34);
+}
+p {
+    padding: 2px;
+    font-size: 1.3em;
+}
+.afbeelding{
+    display: flex;
+    justify-content: center;
+}
+form {
+    margin: 10px;
+}
+
+form div {
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+input, textarea, select {
+    padding: 2px;
+    font-size: 1em;
+}
+.form-input{
+    display: block;
+}
+#contact{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 45%;
+    background-color: white;
+    border-color: darkred;
+    border-style: solid;
+    border-radius: 12px;
+}
+#contactparent{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    background-color: black;
+    width: 2px;
+    height: 420px;
+    margin: 5px;
+}
+@media (max-width: 767px) {
+        #maincontentchild{
+            min-width: 95%;
+        }
+
+}
+footer{
+    height: 90px;
+    background-color: rgb(136,0,27);
+}
+footer div{
+    font-size: 1.5em;
+    margin: 8px;
+}
+.bedankt{
+    border-style: solid;
+    border-color: darkred;
+    border-radius: 24px;
+    background-color: lightgray;
+    margin: 12%;
+    text-align: center;
+    margin-top: 0px;
+}
+.bedankt p{
+    margin: 8%;
+}
+.home{
+    display: flex;
+    background-color: rgb(60,96,96);
+    border: 2px solid dimgray;
+    border-radius: 25px;
+    width: 280px;
+    height: 130px;
+    font-size: 50px;
+    font-weight: bold !important;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#return{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.afbeelding2{
+    width: 100%;
+}
